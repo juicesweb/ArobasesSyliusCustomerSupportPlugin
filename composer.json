@@ -1,5 +1,5 @@
 {
-    "name": "arobases-sylius-public/sylius-customer-support-plugin",
+    "name": "juicesweb/sylius-customer-support-plugin",
     "type": "sylius-plugin",
     "description": "Plugin allowing to users to open tickets for their orders and the administrator can manage and respond to them in the back office on Sylius",
     "keywords": [
@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^7.4 || ^8.0",
         "sylius/sylius": "^1.8"
     },
     "conflict": {
