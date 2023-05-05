@@ -10,8 +10,8 @@
     "minimum-stability": "dev",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
-        "sylius/sylius": "^1.8"
+        "php": "^8.0",
+        "sylius/sylius": "^1.11"
     },
     "conflict": {
         "api-platform/core": "^2.6"
