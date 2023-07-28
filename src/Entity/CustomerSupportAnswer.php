@@ -38,12 +38,15 @@ class CustomerSupportAnswer implements ResourceInterface
      */
     protected string $message;
 
-
     /**
      * @ORM\Column(type="text", length=70)
      */
     protected string $author;
 
+    /**
+     * @ORM\Column(type="text", length=70, nullable=true)
+     */
+    protected string $adminName;
 
     /**
      * @ORM\Column(type="string", length=511, nullable=true)
@@ -124,5 +127,19 @@ class CustomerSupportAnswer implements ResourceInterface
         $this->author = $author;
     }
 
+    /**
+     * @return string
+     */
+    public function getAdminName(): string
+    {
+        return $this->adminName;
+    }
 
+    /**
+     * @param string $adminName
+     */
+    public function setAdminName(string $adminName): void
+    {
+        $this->adminName = $adminName;
+    }
 }
