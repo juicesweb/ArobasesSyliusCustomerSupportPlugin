@@ -46,7 +46,7 @@ class CustomerSupportAnswer implements ResourceInterface
     /**
      * @ORM\Column(type="text", length=70, nullable=true)
      */
-    protected string $adminName;
+    protected ?string $adminName;
 
     /**
      * @ORM\Column(type="string", length=511, nullable=true)
