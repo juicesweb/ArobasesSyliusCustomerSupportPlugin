@@ -130,7 +130,7 @@ class CustomerSupportAnswer implements ResourceInterface
     /**
      * @return string
      */
-    public function getAdminName(): string
+    public function getAdminName(): ?string
     {
         return $this->adminName;
     }
@@ -138,7 +138,7 @@ class CustomerSupportAnswer implements ResourceInterface
     /**
      * @param string $adminName
      */
-    public function setAdminName(string $adminName): void
+    public function setAdminName(?string $adminName): void
     {
         $this->adminName = $adminName;
     }
